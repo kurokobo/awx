@@ -14,7 +14,7 @@ The AWX Project Frequently Asked Questions can be found [here](https://www.ansib
 The AWX logos and branding assets are covered by [our trademark guidelines](https://github.com/ansible/awx-logos/blob/master/TRADEMARKS.md).
 
 Contributing
-------------
+-------------
 
 - Refer to the [Contributing guide](./CONTRIBUTING.md) to get started developing, testing, and building AWX.
 - All code submissions are made through pull requests against the `devel` branch.
