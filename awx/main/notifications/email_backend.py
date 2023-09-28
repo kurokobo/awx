@@ -49,5 +49,9 @@ class CustomEmailBackend(EmailBackend, CustomNotificationBase):
     }
 
     def format_body(self, body):
-        # leave body unchanged (expect a string)
-        return body
+        if body == "":
+            # return \n to prevent malformed mail from being generated
+            return "\n"
+        else:
+            # leave body unchanged
+            return body
